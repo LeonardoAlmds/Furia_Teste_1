@@ -1,0 +1,28 @@
+.container {
+  margin-top: 110px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 0 20vh 1vh 20vh;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 5vh 1vh 5vh;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 2vh 1vh 2vh;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 2vh 1vh 2vh;
+    max-width: 100%;
+  }
+}
